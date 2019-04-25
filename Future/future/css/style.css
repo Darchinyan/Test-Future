@@ -1,0 +1,141 @@
+@font-face{
+	font-family:'EchoesSans';
+	src:url(../fonts/EchoesSans.otf);
+}
+body{
+	margin:0px;
+	background-color:#eeeeee;
+	font-family:EchoesSans;
+}
+.for_header{
+	width:100%;
+	height:150px;
+	border-bottom:4px dashed #eeeeee;
+	background-color:#FFFFFF;
+}
+#header_cont{
+	width:900px;
+	height:100%;
+	margin:0px auto;
+}
+#comments{
+	width:900px;
+	margin:0px auto;
+	padding:0px 100px;
+}
+
+#for_title{
+	width:300px;
+	height:100%;
+	float:left;
+}
+.for_data{
+	font-weight:800;
+	font-size:11px;
+	margin:5px;
+}
+.for_data a{
+	color:black;
+}
+h1{
+	margin-top:75px;
+	font-family:EchoesSans;
+	font-size:39px;
+}
+#for_logo{
+	width:135px;
+	height:135px;
+	float:right;
+	background-image:url(../images/logo.png);
+	background-size:100% 100%;
+}
+#contener{
+	width:100%;
+	margin-top:50px;
+}
+#insert_name{
+	width:300px;
+	height:30px;
+	border:none;
+	border-radius:5px;
+}
+#for_submit{
+	display:block;
+	text-align:center;
+}
+#sub{
+	width:100px;
+	height:30px;
+	border:2px solid #2a2a2a;
+	border-radius:5px;
+}
+#sub:hover{
+	background-color:#499d61;
+	cursor:pointer;
+}
+#sec_comment{
+	width:100%;
+	overflow:auto;
+	height:300px;
+	border-bottom:3px solid #aba6a6;
+}
+.tb_div_img{
+	width:130px;
+	height:130px;
+	float:left;
+}
+.img_tb{
+	width:100%;
+	height:100%;
+	border-radius:50%;
+}
+.tb_div_text{
+	float:left;
+	margin-left:100px;
+}
+.span_name{
+	text-transform:capitalize;
+	font-weight:600;
+	font-size:20px;
+	
+}
+.span_data{
+	padding-left:50px;
+	font-size:12px;
+	color:#a4a4a4;
+}
+.comments_text{
+	text-transform:capitalize;
+	padding-bottom:15px;
+}
+.for_err{
+	display:inline-black;
+	font-weight:800;
+	color:red;
+}
+footer{
+	display:block;
+}
+#for_footer{
+	width:100%;
+	height:150px;
+	background-color:#FFFFFF;
+}
+#footer_conten{
+	width:900px;
+	height:100%;
+	margin:0px auto;
+}
+#footer_img{
+	width:90px;
+	height:90px;
+	float:left;
+	background-image:url(../images/logo.png);
+	background-size:100% 100%;
+	margin-top:30px;
+}
+#footer_text{
+	float:left;
+	margin-top:40px;
+	margin-left:40px;
+}
